@@ -1,0 +1,11 @@
+ObjectTemplate.Active Gewehr42
+ObjectTemplate.addTemplate No4Scope
+ObjectTemplate.setPosition 0/0.075/0.05
+ObjectTemplate.setScopeIcon "sniper.tga"
+ObjectTemplate.setSniperSight 1
+ObjectTemplate.setCrossHairType CHTCrossHair
+ObjectTemplate.useScope 1
+ObjectTemplate.zoomFov 0.2
+ObjectTemplate.magSize 20
+ObjectTemplate.roundOfFire 9
+ObjectTemplate.numOfMag 6
