@@ -1,0 +1,8 @@
+ObjectTemplate.Active Bazooka
+ObjectTemplate.addTemplate No4Scope
+ObjectTemplate.setPosition -0.055/0.1/0.1
+ObjectTemplate.setRotation 0/0/90
+ObjectTemplate.setScopeIcon "sniper.tga"
+ObjectTemplate.setSniperSight 1
+ObjectTemplate.useScope 1
+ObjectTemplate.zoomFov 0.2
