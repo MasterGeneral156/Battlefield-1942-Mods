@@ -4,7 +4,7 @@ ObjectTemplate.networkableInfo HandFireArmsInfo
 ObjectTemplate.projectileTemplate M1GarandProjectile
 ObjectTemplate.projectilePosition 0/0/0
 ObjectTemplate.magSize 8
-ObjectTemplate.numOfMag 2
+ObjectTemplate.numOfMag 3
 ObjectTemplate.magType 0
 ObjectTemplate.reloadtime 4.0
 ObjectTemplate.roundOfFire 3.2
@@ -19,7 +19,7 @@ ObjectTemplate.soldierZoomPosition -0.04/-0.03/0
 ObjectTemplate.soldierCameraPosition -0.02/-0.03/0.01
 ObjectTemplate.addRootSpeed 0
 ObjectTemplate.ammoType 1
-ObjectTemplate.autoReload 0
+ObjectTemplate.autoReload 1
 ObjectTemplate.allowReloadOnEmptyClipOnly 1
 ObjectTemplate.ejectClipTime 0.6
 
@@ -118,4 +118,4 @@ ObjectTemplate.addTemplate M1GarandSimple
 
 ObjectTemplate.Active M1GarandSniper
 ObjectTemplate.addTemplate No4Scope
-ObjectTemplate.setPosition 0/0.075/0.05
+ObjectTemplate.setPosition 0/0.09/0.3
