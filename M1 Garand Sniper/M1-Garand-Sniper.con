@@ -32,7 +32,6 @@ ObjectTemplate.setAmmoBarPosX 6
 ObjectTemplate.setAmmoBarPosY -17
 ObjectTemplate.setAmmoBarTextPosX 5
 ObjectTemplate.setAmmoBarTextPosY 10
-ObjectTemplate.unZoomBetweenFireTime 3.0
 ObjectTemplate.useScope 1
 ObjectTemplate.setScopeIcon "sniper.tga"
 ObjectTemplate.setSniperSight 1
@@ -77,3 +76,44 @@ ObjectTemplate.setRotation 0/0/0
 ObjectTemplate.addTemplate e_shellM1Garand
 ObjectTemplate.setPosition 0/0.1/0.41
 ObjectTemplate.setRotation 0/0/0
+
+
+ObjectTemplate.create SimpleObject M1GarandSimple
+ObjectTemplate.geometry M1GarandSimple
+
+ObjectTemplate.create SimpleObject M1GarandMagasin
+ObjectTemplate.geometry M1GarandMagasin
+
+ObjectTemplate.create SimpleObject M1GarandClip
+ObjectTemplate.geometry M1GarandClip
+
+ObjectTemplate.create SimpleObject M1GarandReload
+ObjectTemplate.geometry M1GarandReload
+
+ObjectTemplate.create SimpleObject M1GarandPlupp
+ObjectTemplate.geometry M1GarandPlupp
+
+ObjectTemplate.create SimpleObject M1Garandtrigger
+ObjectTemplate.geometry M1Garandtrigger
+
+ObjectTemplate.create AnimatedBundle M1GarandComplex
+ObjectTemplate.createSkeleton animations/M1Garand.ske
+ObjectTemplate.geometry M1Garand
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.addTemplate M1Garandtrigger
+ObjectTemplate.bindToSkeletonPart trigger
+ObjectTemplate.addTemplate M1GarandReload
+ObjectTemplate.bindToSkeletonPart reload
+ObjectTemplate.addTemplate M1GarandPlupp
+ObjectTemplate.bindToSkeletonPart plupp
+ObjectTemplate.addTemplate M1GarandMagasin
+ObjectTemplate.bindToSkeletonPart mag
+ObjectTemplate.addTemplate M1GarandClip
+ObjectTemplate.bindToSkeletonPart clip
+
+ObjectTemplate.create LodObject M1GarandLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate M1GarandComplex
+ObjectTemplate.addTemplate M1GarandSimple
+
+
