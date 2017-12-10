@@ -29,4 +29,3 @@ ObjectTemplate.addTemplate GrenadeAxis
 ObjectTemplate.addTemplate GermanElite_RocketPack
 
 ObjectTemplate.aiTemplate  Assault
-
