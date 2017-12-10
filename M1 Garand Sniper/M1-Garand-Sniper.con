@@ -4,7 +4,7 @@ ObjectTemplate.networkableInfo HandFireArmsInfo
 ObjectTemplate.projectileTemplate M1GarandProjectile
 ObjectTemplate.projectilePosition 0/0/0
 ObjectTemplate.magSize 8
-ObjectTemplate.numOfMag 3
+ObjectTemplate.numOfMag 2
 ObjectTemplate.magType 0
 ObjectTemplate.reloadtime 4.0
 ObjectTemplate.roundOfFire 3.2
@@ -45,18 +45,12 @@ ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.1/-0.3/0
 ObjectTemplate.setHasRecoilForce 1
 ObjectTemplate.setGoBackOnRecoil 1
 
-ObjectTemplate.setFireDev 1.8 0.3 0.08
-rem ObjectTemplate.setFireDev 1.8 0.25 0.03
+ObjectTemplate.setFireDev 0 0 0
 ObjectTemplate.setDevMod  1 0.7 0.5
-rem ObjectTemplate.setDevMod  1 0.7 0.5
 ObjectTemplate.setMinDev 0.25
-ObjectTemplate.setTurnDev 0.3 0.2 0.2 0.1
-rem ObjectTemplate.setTurnDev 0 0 0 0
-ObjectTemplate.setSpeedDev 1.3 0.4 0.4 0.2
-rem ObjectTemplate.setSpeedDev 1.2 0.3 0.3 0.1
-
-ObjectTemplate.setMiscDev 1.8 1.8 0.1
-
+ObjectTemplate.setTurnDev 0 0 0 0
+ObjectTemplate.setSpeedDev 0.8 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
 
 Rem *** Deviation  End *****
 
