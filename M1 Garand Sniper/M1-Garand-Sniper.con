@@ -116,4 +116,6 @@ ObjectTemplate.lodselector HandWeaponLodSelector
 ObjectTemplate.addTemplate M1GarandComplex
 ObjectTemplate.addTemplate M1GarandSimple
 
-
+ObjectTemplate.Active M1GarandSniper
+ObjectTemplate.addTemplate No4Scope
+ObjectTemplate.setPosition 0/0.075/0.05
