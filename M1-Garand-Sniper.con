@@ -22,11 +22,6 @@ ObjectTemplate.ammoType 1
 ObjectTemplate.autoReload 0
 ObjectTemplate.allowReloadOnEmptyClipOnly 1
 ObjectTemplate.ejectClipTime 0.6
-ObjectTemplate.setScopeIcon "sniper.tga"
-ObjectTemplate.setSniperSight 1
-ObjectTemplate.setCrossHairType CHTNone
-ObjectTemplate.unZoomBetweenFireTime 3.0
-ObjectTemplate.useScope 1
 
 ObjectTemplate.GUIIndex 3
 ObjectTemplate.setHudAmmoType ATAmmoBar
@@ -37,11 +32,11 @@ ObjectTemplate.setAmmoBarPosX 6
 ObjectTemplate.setAmmoBarPosY -17
 ObjectTemplate.setAmmoBarTextPosX 5
 ObjectTemplate.setAmmoBarTextPosY 10
+ObjectTemplate.unZoomBetweenFireTime 3.0
+ObjectTemplate.useScope 1
+ObjectTemplate.setScopeIcon "sniper.tga"
+ObjectTemplate.setSniperSight 1
 ObjectTemplate.setCrossHairType CHTNone
-
-ObjectTemplate.Active M1GarandSniper
-ObjectTemplate.addTemplate No4Scope
-ObjectTemplate.setPosition 0/0.075/0.05
 
 Rem *** Deviation Begin *****
 
@@ -65,3 +60,20 @@ ObjectTemplate.setMiscDev 1.8 1.8 0.1
 
 
 Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/M1Garand.ssc
+
+ObjectTemplate.createSkeleton animations/M1Garand.ske
+ObjectTemplate.useSkeletonPartAsMain Base
+
+rem *** LodObject must be located as first child to work on handweapons.
+ObjectTemplate.addTemplate M1GarandLod
+
+ObjectTemplate.addTemplate e_MuzzGun
+ObjectTemplate.setPosition 0/0.05/0.84
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.addTemplate e_shellM1Garand
+ObjectTemplate.setPosition 0/0.1/0.41
+ObjectTemplate.setRotation 0/0/0
