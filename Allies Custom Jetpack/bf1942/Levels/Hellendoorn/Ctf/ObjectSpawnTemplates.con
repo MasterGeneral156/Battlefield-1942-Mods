@@ -1,0 +1,7 @@
+ObjectTemplate.Active ObjectSpawner JetPackSpawner
+ObjectTemplate.setObjectTemplate 2 Commando_JetPack
+ObjectTemplate.setObjectTemplate 1 GermanElite_JetPack
+ObjectTemplate.SpawnDelay 60
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
