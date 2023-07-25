@@ -1,0 +1,32 @@
+ObjectTemplate.create Kit Commando_JetPack
+ObjectTemplate.setType RocketPack
+ObjectTemplate.setKitTeam 1
+ObjectTemplate.geometry Kit_Axis_JetPack
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate BritCommando_Medic_Helmet
+ObjectTemplate.addTemplate US_Britt_Bacpac
+
+ObjectTemplate.setHealthBarIcon "Ingame/healthbar_empty_jetpack_64x64.dds"
+ObjectTemplate.setHealthBarFullIcon "Ingame/healthbar_full_jetpack_64x64.dds"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_alliesKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_colt.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_StenmkII.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_grenadeallies.tga"
+
+beginrem
+ObjectTemplate.setKitIcon 1 "kits/Icon_assault_axis_selected.tga"
+ObjectTemplate.setKitName 1 "RESPAWN_JetPack"
+ObjectTemplate.setKitActiveName 1 "RESPAWN_ACTIVE_JetPack"
+endrem
+
+rem *** The order is important, first the best weapons!
+ObjectTemplate.addTemplate StenGun
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate CommandoKnife
+
+ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.addTemplate GermanElite_RocketPack
+
+ObjectTemplate.aiTemplate  Assault
+
