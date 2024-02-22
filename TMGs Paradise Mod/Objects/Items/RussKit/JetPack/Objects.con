@@ -1,0 +1,29 @@
+ObjectTemplate.create Kit  Rus_JetPack
+ObjectTemplate.setType RocketPack
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.geometry  Kit_Axis_JetPack
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate medichelm_Russ
+ObjectTemplate.addTemplate Russian_Medic_hippack
+
+ObjectTemplate.setHealthBarIcon "Ingame/healthbar_empty_jetpack_64x64.dds"
+ObjectTemplate.setHealthBarFullIcon "Ingame/healthbar_full_jetpack_64x64.dds"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_alliesKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_colt.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_japMg.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_grenadeallies.tga"
+
+ObjectTemplate.setKitIcon 3 "kits/Icon_assault_allies_selected.tga"
+ObjectTemplate.setKitName 3 "RESPAWN_JetPack"
+ObjectTemplate.setKitActiveName 3 "RESPAWN_ACTIVE_JetPack"
+
+ObjectTemplate.addTemplate MP18
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+
+ObjectTemplate.addTemplate GrenadeAllies
+
+ObjectTemplate.addTemplate GermanElite_RocketPack
+ObjectTemplate.aitemplate Assault
+

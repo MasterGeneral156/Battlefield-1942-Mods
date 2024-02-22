@@ -1,0 +1,252 @@
+rem ----- Host 
+rem ---------------------------------------------------------------------------- 
+
+rem *****************************************
+rem ****          AXIS BASE1           *****
+rem ****************************************
+
+Object.create ScoutCarSpawner
+Object.absolutePosition 344.822/60.0932/464.35
+Object.rotation 90/0/0
+Object.setOSId 1
+
+Object.create MotorcycleSpawner
+Object.absolutePosition 345.246/60.0669/470.514
+Object.rotation 90/0/0
+Object.setOSId 1
+
+Object.create AmphibiousSpawner
+Object.absolutePosition 344.744/60.1879/467.611
+Object.rotation 90/0/0
+Object.setOSId 1
+
+Object.create mediumtankspawner 
+Object.absolutePosition 305.518/82.8729/495.906
+Object.rotation 180/0/0
+Object.setOSId 1
+
+Object.create lighttankspawner
+Object.absolutePosition 350.628/60.9654/485.345
+Object.rotation 180/0/0
+Object.setOSId 1
+
+Object.create MachinegunSpawner
+Object.absolutePosition 287.3/86.0852/428.102
+Object.rotation 90/0/0
+Object.setOSId 1
+Object.setTeam 1
+
+
+rem ****************************************
+rem ****        ALLIES Base2           *****
+rem ****************************************
+
+Object.create mediumtankspawner
+Object.absolutePosition 726.155/65.6748/826.416
+Object.rotation -90/0/0
+Object.setOSId 2
+
+Object.create lighttankspawner
+Object.absolutePosition 689.987/64.9569/773.555
+Object.rotation 7/0/0
+Object.setOSId 2
+
+Object.create AmphibiousSpawner
+Object.absolutePosition 726.246/65.5676/821.584
+Object.rotation -90/0/0
+Object.setOSId 2
+
+Object.create MotorcycleSpawner
+Object.absolutePosition 701.484/64.363/787.484
+Object.rotation -83/0/0
+Object.setOSId 2
+
+Object.create ScoutCarSpawner
+Object.absolutePosition 700.957/64.4557/791.240
+Object.rotation -83/0/0
+Object.setOSId 2
+
+Object.create MachinegunSpawner
+Object.absolutePosition 693.789/65.0541/766.598
+Object.rotation -83/0/0
+Object.setOSId 2
+Object.setTeam 2
+
+Object.create MachinegunSpawner
+Object.absolutePosition 695.517/65.0001/777.686
+Object.rotation -83/0/0
+Object.setOSId 2
+Object.setTeam 2
+
+Object.create MachinegunSpawner
+Object.absolutePosition 663.843/61.1135/822.796
+Object.rotation -90/0/0
+Object.setOSId 2
+Object.setTeam 2
+
+
+rem ****************************************
+rem ****        Hallendoorn           *****
+rem ****************************************
+
+Object.create MachinegunSpawner
+Object.absolutePosition 505.383/89.6153/657.325
+Object.rotation 180/0/0
+Object.setOSId 3
+Object.setTeam 1
+
+Object.create MachinegunSpawner
+Object.absolutePosition 494.061/89.6873/668.414
+Object.rotation 270/0/0
+Object.setOSId 3
+Object.setTeam 1
+
+Object.create JetPackSpawner
+Object.absolutePosition 501.384/92.7046/664.646
+Object.rotation 0/0/0
+Object.setOSId 3
+
+Object.create JetPackSpawner
+Object.absolutePosition 504.306/92.7046/666.804
+Object.rotation 0/0/0
+Object.setOSId 3
+
+
+rem ****************************************
+rem ****        Allied_Airfield        *****
+rem ****************************************
+rem
+rem ***  ***
+rem
+
+Object.create lighttankspawner
+Object.absolutePosition 323.166/64.4478/846.774
+Object.rotation 180/0/0
+Object.setOSId 4
+
+Object.create lighttankspawner
+Object.absolutePosition 327.489/64.5328/846.774
+Object.rotation 180/0/0
+Object.setOSId 4
+
+Object.create ScoutCarSpawner
+Object.absolutePosition 321.42/63.3225/788.011
+Object.rotation 0/0/0
+Object.setOSId 4
+Object.setName Jeep
+
+Object.create GoblinSpawner
+Object.absolutePosition 291.38/63.3551/836.946
+Object.rotation 180/0/0
+Object.setOSId 4
+
+Object.create NatterSpawner
+Object.absolutePosition 276.927/65.851/833.21
+Object.rotation 180/-11.664/0
+Object.setOSId 4
+
+
+rem ****************************************
+rem ****		Axis_Airfield          *****
+rem ****************************************
+rem
+rem ***  ***
+rem
+Object.create lighttankspawner 
+Object.absolutePosition 695.055/59.6391/474.016
+Object.rotation -90/0/0
+Object.setOSId 5
+
+Object.create lighttankspawner 
+Object.absolutePosition 695.055/59.6391/466.313
+Object.rotation -90/0/0
+Object.setOSId 5
+
+Object.create ScoutCarSpawner
+Object.absolutePosition 668.65/60.1017/446.279
+Object.rotation 0/0/0
+Object.setOSId 5
+
+Object.create ScoutCarSpawner
+Object.absolutePosition 665.411/60.0439/446.283
+Object.rotation 0/0/0
+Object.setOSId 5
+
+Object.create MachinegunSpawner
+Object.absolutePosition 685.234/65.034/448.991
+Object.rotation 0/0/0
+Object.setOSId 5
+Object.setTeam 1
+
+Object.create GoblinSpawner
+Object.absolutePosition 636.912/62.0744/441.815
+Object.rotation 0/0/0
+Object.setOSId 5
+
+Object.create NatterSpawner
+Object.absolutePosition 641.814/62.0048/413.804
+Object.rotation 0/-11.664/0
+Object.setOSId 5
+
+
+rem ****************************************
+rem ****		Allied_Village         *****
+rem ****************************************
+rem
+rem ***  ***
+rem
+
+Object.create MachinegunSpawner
+Object.absolutePosition 574.28/60.8907/929.338
+Object.rotation 180/0/0
+Object.setOSId 6
+Object.setTeam 2
+
+Object.create MachinegunSpawner
+Object.absolutePosition 599.552/64.1667/928.833
+Object.rotation 180/0/0
+Object.setOSId 6
+Object.setTeam 2
+
+Object.create AmphibiousSpawner
+Object.absolutePosition 563.321/60.226/937.502
+Object.rotation -90/0/0
+Object.setOSId 6
+
+
+rem ****************************************
+rem ****        Axis_Village           *****
+rem ****************************************
+rem
+rem ***  ***
+rem
+
+Object.create MachinegunSpawner
+Object.absolutePosition 404.831/74.1963/317.668
+Object.rotation 0/0/0
+Object.setOSId 7
+Object.setTeam 1
+
+Object.create AmphibiousSpawner
+Object.absolutePosition 341.933/62.7729/244.529
+Object.rotation 90/0/0
+Object.setOSId 7
+
+
+
+Object.create MachinegunSpawner
+Object.absolutePosition 371.94/69.2802/298.193
+Object.rotation 0/0/0
+Object.setOSId 7
+
+Object.create MachinegunSpawner
+Object.absolutePosition 348.153/63.6439/252.003
+Object.rotation 90/0/0
+Object.setOSId 7
+
+
+spawnPointManager.makeAverageGroupPositions
+
+rem ----------------------------------------------------------------------------
+
+rem EndOfFile

@@ -1,56 +1,62 @@
 ObjectTemplate.create ObjectSpawner JetPackSpawner
-ObjectTemplate.setObjectTemplate 2 GermanElite_JetPack
+ObjectTemplate.setObjectTemplate 2 Commando_JetPack
 ObjectTemplate.setObjectTemplate 1 GermanElite_JetPack
-ObjectTemplate.SpawnDelay 60
+ObjectTemplate.SpawnDelay 30
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 120
 ObjectTemplate.Distance 200
+ObjectTemplate.MaxNrOfObjectSpawned 2
 
 ObjectTemplate.create ObjectSpawner lighttankspawner
 ObjectTemplate.setObjectTemplate 2 Sherman
 ObjectTemplate.setObjectTemplate 1 PanzerIV
-ObjectTemplate.SpawnDelay 60
+ObjectTemplate.SpawnDelay 30
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 2
 
 ObjectTemplate.create ObjectSpawner mediumtankspawner
 ObjectTemplate.setObjectTemplate 2 Sherman_t34
 ObjectTemplate.setObjectTemplate 1 FlakPanzer
-ObjectTemplate.SpawnDelay 60
+ObjectTemplate.SpawnDelay 30
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 4
 
 ObjectTemplate.create ObjectSpawner AmphibiousSpawner 
 ObjectTemplate.setObjectTemplate 2 lvt4
 ObjectTemplate.setObjectTemplate 1 Schwimmwagen
-ObjectTemplate.MinSpawnDelay 10
-ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 15
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 2
 
 ObjectTemplate.create ObjectSpawner MotorcycleSpawner
 ObjectTemplate.setObjectTemplate 2 hd_xa42
 ObjectTemplate.setObjectTemplate 1 r75
-ObjectTemplate.SpawnDelay 20
+ObjectTemplate.SpawnDelay 10
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 2
 
 ObjectTemplate.create ObjectSpawner ScoutCarSpawner
 ObjectTemplate.setObjectTemplate 2 willy
 ObjectTemplate.setObjectTemplate 1 Schwimmwagen
-ObjectTemplate.SpawnDelay 20
+ObjectTemplate.SpawnDelay 10
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 2
 
 ObjectTemplate.create ObjectSpawner MachinegunSpawner
 ObjectTemplate.setObjectTemplate 2 Stationary_Browning
@@ -61,21 +67,24 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 2
 
 ObjectTemplate.create ObjectSpawner NatterSpawner
 ObjectTemplate.setObjectTemplate 1 natter
 ObjectTemplate.setObjectTemplate 2 natter
-ObjectTemplate.SpawnDelay 60
+ObjectTemplate.SpawnDelay 30
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 120
 ObjectTemplate.Distance 200
+ObjectTemplate.MaxNrOfObjectSpawned 2
 
 ObjectTemplate.create ObjectSpawner GoblinSpawner
 ObjectTemplate.setObjectTemplate 1 Goblin
 ObjectTemplate.setObjectTemplate 2 Goblin
-ObjectTemplate.SpawnDelay 60
+ObjectTemplate.SpawnDelay 30
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 120
 ObjectTemplate.Distance 200
+ObjectTemplate.MaxNrOfObjectSpawned 2
 
 

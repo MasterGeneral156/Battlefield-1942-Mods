@@ -1,0 +1,38 @@
+ObjectTemplate.create KitPart German_Medic_hippack
+ObjectTemplate.geometry German_Medic_hippack
+ObjectTemplate.setBoneName hippack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create KitPart Medic_helm_ger
+ObjectTemplate.geometry Medic_helm_ger
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create Kit  German_JetPack
+ObjectTemplate.setType RocketPack
+ObjectTemplate.setKitTeam 1
+ObjectTemplate.geometry  Kit_Axis_JetPack
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Medic_helm_ger
+rem ObjectTemplate.addTemplate german_Medic_hippack
+
+ObjectTemplate.setHealthBarIcon "Ingame/healthbar_empty_jetpack_64x64.dds"
+ObjectTemplate.setHealthBarFullIcon "Ingame/healthbar_full_jetpack_64x64.dds"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_axisKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_walter.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_mp40.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_grenadeaxis.tga"
+
+ObjectTemplate.setKitIcon 3 "kits/Icon_assault_axis_selected.tga"
+ObjectTemplate.setKitName 3 "RESPAWN_JetPack"
+ObjectTemplate.setKitActiveName 3 "RESPAWN_ACTIVE_JetPack"
+
+ObjectTemplate.addTemplate MP40
+ObjectTemplate.addTemplate walterP38
+ObjectTemplate.addTemplate KnifeAxis
+
+ObjectTemplate.addTemplate GrenadeAxis
+
+ObjectTemplate.addTemplate GermanElite_RocketPack
+ObjectTemplate.aiTemplate  Assault
